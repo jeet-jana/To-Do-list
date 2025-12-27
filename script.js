@@ -16,9 +16,16 @@ function addTask(){
     btn.addEventListener("click", function (){
         btn.parentElement.remove();
     });
+    if(tex.trim().toLowerCase() === "jeet love tanima"){
+        alert("Tanima may not Love Jeet  ");
+    }
+    if(tex.trim().toLowerCase() === "totar pod mara"){
+        alert("Raju Da mare");
+    }
 }
 function clearLil(){
     ul.innerHTML = "";
     input.value = "";
 }
+
 
