@@ -48,6 +48,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: purple;
     width: 30rem;
     height: 3rem;
     box-shadow: 0 0 2rem;
@@ -55,7 +56,7 @@ button:hover{
     animation: ani 0.2s linear infinite;
     font-weight: 500;
 }
-@keyframes ani{
+/* @keyframes ani{
     0% {
         box-shadow: 5px 0 10px;
         color: blue;
@@ -74,5 +75,6 @@ button:hover{
     100% {
         box-shadow: 5px 0 10px;
         color: rgb(101, 101, 228);
-    }
+    } */
 }
+
