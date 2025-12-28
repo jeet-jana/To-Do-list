@@ -81,9 +81,18 @@ button:hover{
         width: 20rem;
     }
 }
+@media (max-width: 430px) {
+    .all-task{
+        width: 15rem;
+    }
+    button{
+        padding: 0.1rem 4rem;
+    }
+}
 .purple-icon {
   color: rgb(218, 179, 128);
   margin-left: 0.5rem;
 }
+
 
 
