@@ -48,7 +48,6 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: purple;
     width: 30rem;
     height: 3rem;
     box-shadow: 0 0 2rem;
@@ -77,4 +76,14 @@ button:hover{
         color: rgb(101, 101, 228);
     } */
 }
+@media (max-width: 446px) {
+    .all-task{
+        width: 20rem;
+    }
+}
+.purple-icon {
+  color: rgb(218, 179, 128);
+  margin-left: 0.5rem;
+}
+
 
